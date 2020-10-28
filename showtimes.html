@@ -23,6 +23,20 @@
                 clear: both;
             }
         </style>
+        
+        <!--aidan :)--><style>
+        #aidan{
+           display: none;
+        }
+        </style>
+        
+        <script>
+            function Jumpscare(){
+                document.getElementById("aidan").style.display = "block"
+            }
+         
+        </script>
+        
     </head>
     <body>
         <nav>
@@ -51,7 +65,10 @@
                 </ul><br/>
                 
                 <h3>STREAM NOW</h3>
-                <p>Streaming on <a href="amazon.com" class="link">Amazon Prime Video</a> on October 31st.</p>
+                <p>Streaming on <a class="link" onclick="Jumpscare()">Amazon Prime Video</a> on October 31st.</p>
+            </div>
+            <div>
+            <img id="aidan" src="aidan.png" alt="hi" >
             </div>
             <div class="right-40"><br/>
                 <img src="GettyImages-1207384675.jpg"  alt="movie theater"/>
