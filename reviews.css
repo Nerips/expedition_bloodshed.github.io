@@ -1,0 +1,57 @@
+.reviewBody {
+    float: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+body .reviewBody h2 {
+    font-size: 2.7vw;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 1.2vw;
+}
+
+.review h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.review {
+    /*width: 95%;*/
+    border-style: solid;
+    border-width: 1.5px;
+    padding: 15px;
+    padding-top: 2px;
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.review blockquote {
+    padding-top: 1vw;
+    font-size: 2vw;
+}
+
+.review quote {
+    display: block;
+    padding-right: 3.7vw;
+    text-align: right;
+    font-size: 2.3vw;
+    font-style: italic;
+}
+
+.review img {
+    max-height: 200px;
+    max-width: 280px;
+    float: right;
+    padding-top: 0px;
+}
+
+.review em.quoteMark {
+    font-style: normal;
+    font-size: 2.5vw;
+    font-family: ;
+}
+
+footer {
+    
+}

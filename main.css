@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Syne Tactile';
+    src: url(SyneTactile-Regular.ttf);
+}
+
+html {
+    background-image: url(spooky-forest-wallpaper_4857554.jpg);
+}
+
+body {
+    background-color: rgba(76, 79, 79, 0.98);
+    margin: 55px 10%;
+    padding: 0 20px;
+    color: white;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Syne Tactile';
+}
+
+nav {
+    background-color: 
+}
+
+nav>h1 {
+    float: left;
+    font-size: 3vw;
+}
+
+nav>ul {
+    float: right;
+}
+
+nav ul>li {
+    font-family: 'Syne Tactile';
+    width: auto;
+    float: left;
+    list-style: none;
+    padding: 15px 0px 20px 20px;
+    font-size: 1.7vw;
+}
+
+nav ul>li>a {
+    text-decoration: none;
+}
+
+nav ul>li>a:visited {
+    color: white;
+}
+
+article {
+    clear: both;
+}
+
+.center {
+    text-align: center;
+}
+
+footer {
+    font-size: 24px;
+}@font-face {
+    font-family: 'Syne Tactile';
+    src: url(SyneTactile-Regular.ttf);
+}
+
+html {
+    background-image: url(spooky-forest-wallpaper_4857554.jpg);
+}
+
+body {
+    background-color: rgba(76, 79, 79, 0.98);
+    margin: 55px 10%;
+    padding: 0 20px;
+    color: white;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Syne Tactile';
+}
+
+nav {
+    background-color: 
+}
+
+nav>h1 {
+    float: left;
+}
+
+nav>ul {
+    float: right;
+}
+
+nav ul>li {
+    font-family: 'Syne Tactile';
+    width: auto;
+    float: left;
+    list-style: none;
+    padding: 1.5vw 0 1.5vw 1.5vw;
+    font-size: 1.7vw;
+}
+
+nav ul>li>a {
+    text-decoration: none;
+}
+
+nav ul>li>a:visited {
+    color: white;
+}
+
+article {
+    clear: both;
+}
+
+.center {
+    text-align: center;
+}
+
+footer {
+    font-size: 24px;
+    padding-bottom: .2vw;
+}
+
+h1 {
+    color: red;
+}
+
+.redGradient {
+    text-shadow: 0 0 12px red;
+}
+
+#articleHeader {
+    font-size: 2.7vw;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 1.2vw;
+}
+
+.link {
+    color: rgb(225, 0, 0);
+}

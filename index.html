@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Expedition Bloodshed</title>
+        <link href="main.css" rel="stylesheet" type="text/css" />
+        <link href="indexLayout.css" rel="stylesheet"/>
+		<link href="videoStuff/popupVideoCSS.css" rel="stylesheet" /> 
+		<script src="videoStuff/popupBox.js"></script>
+    </head>
+    <body>
+        <nav>
+            <h1 class="redGradient">EXPEDITION BLOODSHED</h1>
+            <ul>
+                <li class="redGradient"><a href="index.html">Home</a></li>
+                <li class="redGradient"><a href="about.html">About</a></li>
+                <li class="redGradient"><a href="reviews.html">Reviews</a></li>
+                <li class="redGradient"><a href="showtimes.html">Showtimes</a></li>
+            </ul>
+        </nav>
+        <article>
+            
+            <h2 id="articleHeader" class="redGradient">Home</h2>
+            
+        <div class="Trailer">
+            
+                <!-- This is where our Trailer for our movie goes -->
+                
+        <div id="videobox"> <!-- this is the entirety of the box that holds the video-->
+        <a class="boxclose" id="boxclose" 
+           onclick = "boxClose();"</a>
+		   <!--this is the box thingy of the video; we can change the settings around, -->
+        <video id="theVideo" width="560" height="315" 
+		frameborder = "0" allow="accelerometer; autoplay; encrypted-media; 
+		gyroscope; picture-in-picture" allowfullscreen controls>
+            <source src = "videoStuff/test.mp4" type= "video/mp4" ></video>
+            </div>
+			
+    <div id="fade" onclick = "boxClose();"></div>
+	<!-- this is something we can click to get all the stuff to appear-->
+    <div id="actualVideo"><a href="#" class="link" onclick="boxOpen();">CLICK ME FOR VIDEO :D</a></div>
+		
+        </div>
+        <div class="Summary">
+            <p>
+                <!-- Summary of the movie below the Trailer -->
+            Along time ago Alan and Josh were part of company called "The Muskrats" and they 
+            created the perfect sandwich, but shortly after T.Martin Industries bought The
+            Muskrates causing the group to split apart. Years later the duo were back togethor
+            again after another company change causing some new members to also join them. A 
+            usual company tradition came up and so they were sent on a safari trip in Africa as
+            a team building exersice, but only a few hours on the trip and events go 
+            </p><br/>
+        </div>
+        </article>
+		
+
+        <footer>
+            <h6 class="center">&#169; 2020 - DigiTours Inc.</h6>
+        </footer>
+		
+		
+		
+		
+    </body>
+
+</html>
+
