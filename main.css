@@ -3,6 +3,11 @@
     src: url(SyneTactile-Regular.ttf);
 }
 
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Regular.ttf);
+}
+
 html {
     background-image: url(spooky-forest-wallpaper_4857554.jpg);
 }
@@ -12,6 +17,9 @@ body {
     margin: 55px 10%;
     padding: 0 20px;
     color: white;
+}
+p {
+    font-family: Roboto;    
 }
 
 h1,h2,h3,h4,h5,h6 {
